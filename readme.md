@@ -5,6 +5,7 @@ The first thing to do is to clone the repository:
 
 
 git clone https://github.com/Vishal-py-js/reminder.git
+
 cd reminder
 
 
