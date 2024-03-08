@@ -27,6 +27,7 @@ run `py manage.py runserver` to start the server
 And navigate to `http://127.0.0.1:8000/api/reminders/` to get all reminders created.
 
 To add a new reminder make a POST request to `http://127.0.0.1:8000/api/create/`:
+
 request body -  
 {
     "message": "reminder message",
