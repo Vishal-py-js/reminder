@@ -4,23 +4,22 @@
 The first thing to do is to clone the repository:
 
 
-git clone https://github.com/Vishal-py-js/reminder.git
+`git clone https://github.com/Vishal-py-js/reminder.git`
 
 cd reminder
 
 
 Then install the dependencies:
 
-pip install -r requirements.txt
-
+`pip install -r requirements.txt`
 
 Once `pip` has finished downloading the dependencies:
 
 database setup:
-run py manage.py makemigrations to prepare database tables
-run py manage.py migrate to create database tables
+run `py manage.py makemigrations` to prepare database tables
+run `py manage.py migrate` to create database tables
 
-run python manage.py runserver to start the server
+run `py manage.py runserver` to start the server
 
 And navigate to `http://127.0.0.1:8000/api/reminders/` to get all reminders created.
 
